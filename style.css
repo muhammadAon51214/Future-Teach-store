@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #929cea4a;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+li{
+    list-style: none;
+   
+}
+
+
+.main{
+    display: flex;
+}
+
+
+
+.sidebar {
+    width: 60px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 9px 0px 9px 9px;
+    height: 100vh;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 9px;
+    flex: 0 0 5%;
+  }
+  
+  .left-side-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .icon-link{
+    display: flex;
+    transition: transform .3s ease-in-out;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+
+  .icon-link:hover {
+    transform: translateX(-10px);
+}
+
+
+.icon-link2{
+display: flex;
+transition: transform .3s ease-in-out;
+padding: 5px;
+border-radius: 5px;
+}
+
+
+.icon-link2:hover {
+    transform: translateX(10px);
+}
+
+
+#section-center{
+    flex: 1;
+}
+
+
+
+
+.input-search-items input{
+    padding: 10px 10px 10px 10px;
+    width: 85%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+.input-search-items{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+
+}
+
+
+.input-search-items span{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.sub-section-1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 880px;
+    padding-top: 40px;
+}
+
+
+.box-ct{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    transition: transform .3s ease-in-out ;
+    border-radius: 20px;
+}
+
+.box-ct::before{
+    content: "";
+    position: relative;
+    display: block;
+    padding-top: 120%;
+}
+
+.box-ct img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.main-ct{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.sec-ct-link{
+    flex: 0 0 18%;
+    text-decoration: none;
+}
+
+.box-ct:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.product-name{
+    font-size: 1rem;
+    color: black;
+}
+
+
+.product-details{
+    padding-left: 10px;
+    padding-top: 5px;  
+    padding-right: 5px; 
+    
+}
+
+.product-details small{
+    color:#615959 ;
+}
+
+
+.product-name:hover{
+    text-decoration: underline;
+}
+
+
+
+.price-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.price-box h3{
+    font-size: 1rem;
+    color: black;
+}
+
+.price-box h3:hover{
+    text-decoration: underline;
+}
+
+.price-box img{
+    background-color:black;
+    padding: 2px;
+    border-radius: 5px;
+    width: 20px;
+}
+
+/* section-macbook */
+
+.sub-section-2-macbook{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 880px;
+    padding-top: 30px;
+}
+
+.product-img1{
+    position: relative;
+    background-color: white;
+    padding: 18px;
+    transition: transform .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.product-img1:hover{
+transform: translateY(-10px);
+}
+
+
+.product-img1::before{
+    content: "";
+    position: relative;
+    display: block;
+    padding-top: 50%;
+}
+
+
+.product-img1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.main-macbook{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+
+
+.product-img2{
+    position: relative;
+    background-color: white;
+    padding: 18px;
+    transition: transform .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.product-img2:hover{
+    transform: translateY(-10px);
+    }
+    
+
+.product-img2::before{
+    content: "";
+    position: relative;
+    display: block;
+    padding-top: 145%;
+}
+
+
+.product-img2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.main-macbook{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.macbook-link{
+    flex: 0 0 45%;
+    text-decoration: none;
+    
+
+}
+
+.macbook-link2{
+    flex: 0 0 18%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.dell-xps-img{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    transition: transform .3s ease-in-out;
+    border-radius: 20px;
+}
+
+.dell-xps-img:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+.dell-xps-img::before{
+    content: "";
+    position: relative;
+    display: block;
+    padding-top: 45%;
+}
+
+.dell-xps-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+.Dell-xps{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 880px;
+    padding-top: 40px;
+}
+
+
+.main-dell-xps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.dell-xps-link{
+    flex: 0 0 45%;
+    text-decoration: none;
+}
+
+
+.right-side{
+    flex: 0 0 20%;
+    border-left: 1px solid black;
+    margin: 9px 0px 9px 0;
+}
+
+.right-side-main{
+    position: sticky;
+    top: 9px;
+    
+}
+
+.right-side-main h1{
+    text-align: center;
+    padding: 30px 0px 10px;
+    font-size: 2.4rem;
+}
+
+
+.bag-4-box{
+    max-width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+
+.bag-product{
+    position: relative;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform  1s ease-in;
+}
+
+.bag-product:hover{
+    transform: rotateY(360deg);
+}
+
+
+.bag-product::before{
+content: "";
+position: relative;
+display: block;
+padding-top:125%;
+}
+
+
+.bag-product img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+.bag-product-link{
+    flex: 0 0 27%;
+}
+
+
+.view-bag {
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .view-bag-button {
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .bag-icon {
+    width: 20px;
+    height: 20px;
+  }
+    
+  .view-bag-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+
+  /* footer */
+  footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+  }
+
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .footer-column ul {
+    list-style: none;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  /* footer */
+
+  /* media-qurie */
+
+  @media (max-width: 1024px){
+
+    .sub-section-1{
+        max-width: 700px;
+    }
+
+    .product-name {
+        font-size: .87965rem;
+    }
+
+    .product-details small{
+        font-size: .7586rem;
+    }
+
+    .price-box h3 {
+        font-size: .8956rem;
+    }
+
+
+
+    .price-box img {
+        width: 18px;
+    }
+
+    .sub-section-2-macbook{
+        max-width: 700px;
+    }
+    
+
+    .Dell-xps{
+        max-width: 700px;
+    }
+
+
+    .bag-4-box{
+        max-width: 180px;
+    }
+
+    
+    .right-side-main h1 {
+        font-size: 2rem;
+    }
+
+
+    .view-bag{
+        width: 78%;
+    }
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+  
+
+    .sub-section-1 {
+        max-width: 520px;
+    }
+
+    .product-name {
+        font-size: .6785rem;
+    }
+
+    .product-details small {
+        font-size: .5986rem;
+    }
+
+    .price-box h3 {
+        font-size: .6556rem;
+    }
+
+    .price-box img {
+        width: 15px;
+    }
+
+
+    .input-search-items span {
+        font-size: .97576rem;
+    }
+
+
+    .input-search-items input{
+        font-size: .79655rem;
+    }
+
+    .input-search-items{
+        max-width: 450px;
+    }
+
+
+    .sub-section-2-macbook {
+        max-width: 520px;
+    }
+
+
+    .macbook-link {
+        flex: 0 0 40%;
+    }
+
+
+    .dell-xps-img::before{
+        padding-top: 40%;
+    }
+   
+
+    .Dell-xps {
+        max-width: 520px;
+    }
+
+
+    .footer-container{
+        gap: 5px;
+    }
+
+
+    .footer-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+      }
+     
+      
+      .footer-column {
+        flex: 1 1 25%;
+        min-width: 200px;
+    }
+
+
+    .footer-column h3{
+        font-size: 12px
+    }
+
+
+    .footer-column p{
+        font-size: 10px;
+    }
+
+
+    .footer-column ul li{
+        font-size: 10px;
+    }
+
+
+    .shop-connect{
+        padding-left: 15%;
+    }
+
+    .footer-bottom{
+        font-size: 12px;
+    }
+
+    .icon-link:hover {
+        transform: translateX(-5px);
+    }
+   
+    .bag-4-box{
+        max-width: 130px;
+    }
+
+
+    .bag-4-box{
+        gap: 10px;
+    }
+
+
+    .right-side-main h1{
+        font-size: 1.8rem;
+    }
+
+
+    .view-bag{
+        width: 82%;
+    }
+
+    .view-bag-button{
+        padding: 10px 20px 10px 20px;
+        font-size: .87654rem;
+    }
+
+    .bag-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* media-qurie */
